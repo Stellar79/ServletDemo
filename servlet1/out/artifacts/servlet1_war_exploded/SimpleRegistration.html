@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SimpleRegistration</title>
+</head>
+<body>
+<label>Please register to your instructor's student address book</label> <br><br>
+<form method="post" action="http://localhost:8080/db">
+<label><font color="red">*</font></label>
+<label>Last Name： </label>
+<input type="text" name="lastName">
+
+<label><font color="red">*</font></label>
+<label>First Name： </label>
+<input type="text" name="firstName">
+
+<label>MI： </label>
+<input type="text" name="MI" size="2"> <br><br>
+
+<label>Telephone： </label>
+<input type="text" name="telephone">
+<label>Email： </label>
+<input type="text" name="email"> <br><br>
+
+<label>Street： </label>
+<input type="text" name="street" size="45"> <br><br>
+
+<label>City： </label>
+<input type="text" name="city">
+<label>State： </label>
+<select name="state" id="state">
+    <option value="GA">Gregoria-GA</option>
+    <option value="OK">Oklahoman-OK</option>
+    <option value="IN">Indiana-IN</option>
+</select>
+
+<label>Zip： </label>
+<input type="text" name="zip" size="10"> <br><br>
+
+<input type="submit" name="Submit" value="Submit">
+<input type="reset" value="Reset"> <br><br>
+</form>
+<label><font color="red">*required fields</font></label>
+</body>
+
+</html>
